@@ -6,7 +6,8 @@ if (message.author.id != 307454426384302082) { return; }
   let mesaj = args.slice(0).join(' ');
 if (mesaj.length < 1) return message.channel.send('Birşey Yazmalısınız');
   message.delete();
-      const mesajat = new Discord.RichEmbed()
+      const mesajat = new Discord.RichEmbed()İ
+      .setFooter('Darq* | dbot.rf.gd', client.user.avatarURL)
       .setColor('RANDOM')
       .setDescription('' + mesaj + '')
 
