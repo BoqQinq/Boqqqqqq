@@ -11,23 +11,32 @@ exports.run = (client, message) => {
 			.setDescription(stripIndents`
 			**Surum 1.0.1**
 
-			> Tas,ka��t,makas komutu eklendi. _kullanmak icin \`d!tkm\`_
+			> Tas,kağıt,makas komutu eklendi. _kullanmak icin \`d!tkm\`_
 			> StarWars komutu eklendi. _kullanmak icin \`d!starwars\`_
 			> Sustur komutu eklendi. _kullanmak icin \`d!sustur\`_
-			> SusturAc komutu eklendi. _kullanmak icin \`d!sustura�\`_
-		    > Rol-Ver komutu eklendi. _kullanmak icin \`d!rol-ver\`_
-			> Yap�mc� Komutueklendi. _kullanmak icin \`d!yap�mc�\`_
-			> Yard�m�n Yeni g�r�n�m� eklendi. _kullanmak icin \`d!yard�m\`_
+			> SusturAc komutu eklendi. _kullanmak icin \`d!susturaç\`_
+		        > Rol-Ver komutu eklendi. _kullanmak icin \`d!rol-ver\`_
+			> Yapımcı Komutueklendi. _kullanmak icin \`d!yapımcı\`_
+			> Yardımın Yeni görünümü eklendi. _kullanmak icin \`d!yardım\`_
 			> Ascii komutu eklendi. _kullanmak icin \`d!ascii\`_
 			> Afk Ve Geldim Komutu eklendi. _kullanmak icin \`d!afk - d!geldim\`_
 			> Rol-Ver komutu eklendi._kullanmak icin \`d!rol-ver\`_
-			> Sunucudaki roller g�sterir _kullanmak icin \`d!roller\`_
-			> Destek Sunucusnda Oda A�ar Ve ekibe yazars�n! _kullanmak icin \`d!talep\`_
+			> Sunucudaki roller gösterir _kullanmak icin \`d!roller\`_
+			> Destek Sunucusnda Oda Açar Ve ekibe yazarsın! _kullanmak icin \`d!talep\`_
 			> Skywars komutu eklendi. _kullanmak icin \`d!skywars\`_
 			> Reklam-Tara Komutu eklendi. _kullanmak icin \`d!reklamtara\`_
-			> SOR Bota Soru Sorars�n�z Komutu Eklendi. _kullanmak icin \`d!sor\`_
-			> S�v Komutu Eklendi. _kullanmak icin \`d!s�v\`_
-			> K�f�r Engelleyici Eklendi. _kullanmak icin \`d!k�f�rengelleyici\`_
+			> SOR Bota Soru Sorarsınız Komutu Eklendi. _kullanmak icin \`d!sor\`_
+			> Söv Komutu Eklendi. _kullanmak icin \`d!söv\`_
+			> Yazı-Tura Komutu Eklendi. _kullanmak icin \`d!yazı-tura\`_
+			> ÇekilişYap Komutu Eklendi. _kullanmak icin \`d!çekilişyap\`_
+			> Fotografınıza Wasted Yazısı EKLER! Eklendi. _kullanmak icin \`d!wasted\`_
+			> MesajKucultucu Komutu Eklendi. _kullanmak icin \`d!mesajküçült\`_
+			> Polis Çağırma Komutu Eklendi. _kullanmak icin \`d!polisçağır\`_
+			> Chata SlowMod Eklersiniz! Eklendi. _kullanmak icin \`d!yavaş-mod\`_
+			> Stres Çarkınızın Hızını Hesaplar Komutu Eklendi. _kullanmak icin \`d!stresçarkı\`_
+			> Soğukmatik Espiriler Yapar Eklendi. _kullanmak icin \`d!espiri\`_
+			> Soğukmatik Espiriler Yapar Eklendi. _kullanmak icin \`d!espirii\`_
+			> Soğukmatik Espiriler Yapar Eklendi. _kullanmak icin \`d!espiriii\`_
 
 			Komutlari gormek icin \`d!yardim\`
 			`)
@@ -40,27 +49,36 @@ exports.run = (client, message) => {
 		.setDescription(stripIndents`
 			**Surum 1.0.1**
 
-			> Tas,ka��t,makas komutu eklendi. _kullanmak icin \`d!tkm\`_
+			> Tas,kağıt,makas komutu eklendi. _kullanmak icin \`d!tkm\`_
 			> StarWars komutu eklendi. _kullanmak icin \`d!starwars\`_
 			> Sustur komutu eklendi. _kullanmak icin \`d!sustur\`_
-			> SusturAc komutu eklendi. _kullanmak icin \`d!sustura�\`_
-		    > Rol-Ver komutu eklendi. _kullanmak icin \`d!rol-ver\`_
-			> Yap�mc� Komutueklendi. _kullanmak icin \`d!yap�mc�\`_
-			> Yard�m�n Yeni g�r�n�m� eklendi. _kullanmak icin \`d!yard�m\`_
+			> SusturAc komutu eklendi. _kullanmak icin \`d!susturaç\`_
+		        > Rol-Ver komutu eklendi. _kullanmak icin \`d!rol-ver\`_
+			> Yapımcı Komutueklendi. _kullanmak icin \`d!yapımcı\`_
+			> Yardımın Yeni görünümü eklendi. _kullanmak icin \`d!yardım\`_
 			> Ascii komutu eklendi. _kullanmak icin \`d!ascii\`_
 			> Afk Ve Geldim Komutu eklendi. _kullanmak icin \`d!afk - d!geldim\`_
 			> Rol-Ver komutu eklendi._kullanmak icin \`d!rol-ver\`_
-			> Sunucudaki roller g�sterir _kullanmak icin \`d!roller\`_
-			> Destek Sunucusnda Oda A�ar Ve ekibe yazars�n! _kullanmak icin \`d!talep\`_
+			> Sunucudaki roller gösterir _kullanmak icin \`d!roller\`_
+			> Destek Sunucusnda Oda Açar Ve ekibe yazarsın! _kullanmak icin \`d!talep\`_
 			> Skywars komutu eklendi. _kullanmak icin \`d!skywars\`_
 			> Reklam-Tara Komutu eklendi. _kullanmak icin \`d!reklamtara\`_
-			> SOR Bota Soru Sorars�n�z Komutu Eklendi. _kullanmak icin \`d!sor\`_
-			> S�v Komutu Eklendi. _kullanmak icin \`d!s�v\`_
-			> K�f�r Engelleyici Eklendi. _kullanmak icin \`d!k�f�rengelleyici\`_
+			> SOR Bota Soru Sorarsınız Komutu Eklendi. _kullanmak icin \`d!sor\`_
+			> Söv Komutu Eklendi. _kullanmak icin \`d!söv\`_
+			> Yazı-Tura Komutu Eklendi. _kullanmak icin \`d!yazı-tura\`_
+			> ÇekilişYap Komutu Eklendi. _kullanmak icin \`d!çekilişyap\`_
+			> Fotografınıza Wasted Yazısı EKLER! Eklendi. _kullanmak icin \`d!wasted\`_
+			> MesajKucultucu Komutu Eklendi. _kullanmak icin \`d!mesajküçült\`_
+			> Polis Çağırma Komutu Eklendi. _kullanmak icin \`d!polisçağır\`_
+			> Chata SlowMod Eklersiniz! Eklendi. _kullanmak icin \`d!yavaş-mod\`_
+			> Stres Çarkınızın Hızını Hesaplar Komutu Eklendi. _kullanmak icin \`d!stresçarkı\`_
+			> Soğukmatik Espiriler Yapar Eklendi. _kullanmak icin \`d!espiri\`_
+			> Soğukmatik Espiriler Yapar Eklendi. _kullanmak icin \`d!espirii\`_
+			> Soğukmatik Espiriler Yapar Eklendi. _kullanmak icin \`d!espiriii\`_
 
 			Komutlari gormek icin \`d!yardim\`
 			`)
-		.setColor('GREEN');
+			.setColor('GREEN');
 
 		return message.channel.send({embed});
 }
