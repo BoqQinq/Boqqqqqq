@@ -21,7 +21,15 @@ d!reboot:      ^Botu yeniden yapmanızı sağlar.^
 d!sunucular:   ^Botun bulunduğu sunucuları gösterir.^
 d!tavsiye:     ^Bot'a tavsiye yollamanızı sağlar.^
 d!yaz:         ^Bot üzerinden yazı yazmanızı sağlar.^
+d!afk:         ^Afk Olursun^
+d!geldim:      ^Afklıktan Çıkarsın^
 d!kilit:       ^Kanalı belirli bir süre kilitlemenizi sağlar.^
+d!reklamtara:  ^Oynuyor Kısmında Reklam Olanları Tespit Eder!^
+d!yavaş-mod:   ^Chata Slow Mode Eklersiniz!^
+d!rol-ver:     ^Etiketlediginz Kişiye İstediniz Rolü Verir!^
+d!roller:      ^Sunucudaki Rolleri Gösterir!^
+d!çekilişyap:  ^Çekiliş Yaparsın!^
+d!çekilişyap:  ^Çekiliş Yaparsın!^
 
 * örn: d!ban <sebep>
 
