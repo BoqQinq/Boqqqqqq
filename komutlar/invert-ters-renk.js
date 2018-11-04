@@ -37,3 +37,16 @@ exports.run = (client, message, params) => {
     });
   }
 };
+
+exports.conf = {
+  enabled: true,
+  guildOnly: false,
+  aliases: [],
+  permLevel: 0
+};
+
+exports.help = {
+  name: 'invert',
+  description: 'Avatarın renklerini ters çevirir.',
+  usage: 'invert [@<kişi ismi>]'
+};
