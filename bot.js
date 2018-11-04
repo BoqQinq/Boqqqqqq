@@ -324,6 +324,31 @@ client.on('message', msg => {
     msg.reply('Aleyküm selam,  hoş geldin ^^');
   }
 });
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'd!espiri') {
+    msg.reply('Aaa siz çok terlemişsiniz durun size terlik getireyim.');
+  }
+});
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'd!espirii') {
+    msg.reply('+Kocanızla ortak özelliğiniz ne?                       -Aynı gün evlendik.');
+  }
+});
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'piç bayfrknyt') {
+    msg.reply('Yapımcımamı Dedin Am Kurusu');
+  }
+});
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'amq darqı') {
+    msg.reply('Hayırdır Oğlum Siqerim Seni');
+  }
+});
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 'd!espiriii') {
+    msg.reply('Aklımı kaçırdım, 100.000 TL fidye istiyorum.');
+  }
+});
 
 client.elevation = message => {
   if(!message.guild) {
