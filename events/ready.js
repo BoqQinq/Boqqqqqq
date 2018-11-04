@@ -11,8 +11,8 @@ module.exports = client => {
     var Games = [
 
         "》〖 ∂αяq вσт єкιвι gυяυяℓαя ѕυηαя 〗《",
-        `》〖  ≪ ∂!уαя∂ιм ≫ ${client.users.size} кυℓℓαηıcı, ${client.guilds.size} ѕυηυcυ ≪ ∂!уαя∂ιм ≫  〗《`,
-        "》〖 уєηι кσмυтℓαя ι̇çιη d!yenilikler 〗《",
+        `》〖 ≪ ∂!уαя∂ιм ≫ ${client.users.size} кυℓℓαηıcı, ${client.guilds.size} ѕυηυcυ ≪ ∂!уαя∂ιм ≫ 〗《`,
+        "》〖 уєηι кσмυтℓαя ι̇çιη d!yenilikler - NEW KOMUTLAR EKLENDİ! 〗《",
         "》〖 ∂!уαя∂ιм | " + client.guilds.size + " ѕυηυcυ " + client.users.size + " кυℓℓαηıcı'уα нιzмєт νєяιуσяυz! 〗《",
 
     ];
