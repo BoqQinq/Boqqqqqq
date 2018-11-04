@@ -7,15 +7,16 @@ exports.run = (client, message, params) => {
     .setColor(0xFF0000)
     .setTimestamp()
     .setAuthor(message.author.username, message.author.avatarURL)
-    .addField('**Eðlence Komutlarý Özel Mesajlarda Kullanýlamaz!**')
+    .addField('**EÄŸlence KomutlarÄ± Ã–zel Mesajlarda KullanÄ±lamaz!**')
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
-    .setAuthor('Woww Windows 10 Mukkemmel :)')
-    .setColor(3447003)
-    .setTimestamp()
+    .setAuthor(message.author.username + `  Windows 10 MuqqemmeeqqL!`)
+    .setColor("#D2D2D2")
     .setDescription('')
-		.setImage(`https://media.giphy.com/media/7h5FhxawWqSdO/giphy.gif`)
+  .setImage(`https://media.giphy.com/media/7h5FhxawWqSdO/giphy.gif`)
+  .setFooter('Darq* | dbot.rf.gd', client.user.avatarURL)
+  .setTimestamp()
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
@@ -23,12 +24,12 @@ exports.run = (client, message, params) => {
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: [],
+  aliases: ['windows'],
   permLevel: 0
 };
 
 exports.help = {
   name: 'windows',
-  description: 'Windows Gif Atar.',
+  description: 'Windows 10 Gifi Atar!',
   usage: 'windows'
 };
